@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(109, 152, 209);
+}
+header, section, footer {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.corpocalculadora {
+    padding: 9px;
+    position: absolute; /* ocupa apenas o espaço delimidado dela*/
+    background-color: rgb(31, 30, 30);
+    left: 50%;
+    transform: translate(-50%); /* deixa centralizado */
+    border-radius: 20px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.192);
+}
+footer {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-80%);
+}
+#resultado {
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 40px;
+    max-width: 260px;
+    margin-bottom: 25px; 
+    color:black;
+    font-weight: bold;
+    font-size: 34px;
+    padding-bottom: 15px;
+    text-align: right;
+    padding-right: 5px;
+    overflow: hidden;
+} 
+.botao {
+    width: 55px;
+    height: 70px;
+    margin: 5px 5px;
+    background-color: rgba(127, 127, 133, 0.651);
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+}
+.botao:hover {
+    background-color: rgb(75, 72, 223);
+}
+h2 {
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgba(127, 127, 133, 0.651);
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 16px;
+} 
+h2:hover {
+    color: black;
+    background-color: white;
+}
+#botaocor {
+    background-color: darkslateblue;
+}
